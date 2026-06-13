@@ -1,0 +1,125 @@
+.title-styles {
+    font-family: Montserrat, sans-serif;
+}
+
+.bodyfont-styles {
+    font-family: Open Sans, sans-serif;
+}
+
+body {
+    display: flex;
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 1500px;
+    height: 1000px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    height: 65px;
+    border-radius: 10px;
+    gap: 20px;
+    align-items: center;
+}
+
+.item-nav1 {
+    margin-left: 50px;
+    align-self: center;
+}
+
+.item-nav2 {
+    margin-left: 450px;
+    display: flex;
+    gap: 20px;
+}
+
+.box-about {
+    width: 1500px;
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.grid-container-1 {
+    height: 950px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.item1 {
+    order: 1;
+}
+
+.item2 {
+    order: 2;
+}
+
+.text-home {
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.accroche {
+    font-size: 1.7rem;
+}
+
+.body-text {
+    font-size: 1.25rem;
+} 
+
+.hero-image {
+    width: 850px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.about-image {
+    width: 450px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+

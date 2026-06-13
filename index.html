@@ -3,155 +3,210 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+         <meta name="description" content="This is the web page of The Restaurant, here you can learn more about us and have a look to our menu. Enjoy !" />
         <title>Restaurant</title>
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <div>
-            <img src="images/heroimage.jpg" />
-            <h1>THE RESTAURANT</h1>
-            <p>Experience exceptional flavors crafted with passion and the finest ingredients. At Savory Haven, we bring together fresh cuisine, warm hospitality, and an unforgettable dining experience. Whether you’re joining us for a family dinner, a romantic evening, or a casual lunch with friends, every dish is prepared to delight your senses.</p>
-            <p>Fresh Ingredients • Authentic Recipes • Memorable Moments</p>
-            <p>Reserve your table today and discover the taste of excellence.</p>
-        </div>
-        <div>
-            <h2>About Us</h2>
-            <h3>Our Story</h3>
-            <p>
-                Founded with a passion for great food and genuine hospitality, Savory Haven is dedicated to creating memorable experiences for every guest. Our chefs carefully select fresh, high-quality ingredients and combine traditional techniques with modern creativity to deliver dishes that satisfy every palate.
-                <br><br>We believe that dining is more than just a meal it’s an opportunity to connect, celebrate, and enjoy life’s special moments. From our welcoming atmosphere to our attentive service, every detail is designed to make you feel at home.
-                <br><br>Our mission is simple: to serve delicious food, provide exceptional service, and create lasting memories for our guests.
-            </p>
-        </div>
-        <div>
-            <h2>Menu</h2>
+        <section id="home" class="box">
+            <nav>
+                <div class="title-styles item-nav1">THE RESTAURANT</div>
+                <div class="item-nav2">
+                    <div class="title-styles">
+                        <a href="#home">Home</a>
+                    </div>
+                    <div class="title-styles">
+                        <a href="#about">About</a>
+                    </div>
+                    <div class="title-styles">
+                        <a href="#menu">Menu</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="grid-container-1">
+                <div>
+                    <h1 class="title-styles">THE RESTAURANT</h1>
+                </div>
+                <div class="text-home accroche bodyfont-styles">
+                    <p><strong>Fresh Ingredients • Authentic Recipes • Memorable Moments</strong></p>
+                </div>
+                <div class="text-home body-text bodyfont-styles">
+                    <p>Experience exceptional flavors crafted with passion and the finest ingredients. At The Restaurant, we bring together fresh cuisine, warm hospitality, and an unforgettable dining experience. Whether you’re joining us for a family dinner, a romantic evening, or a casual lunch with friends, every dish is prepared to delight your senses.</p>
+                    <p>Reserve your table today and discover the taste of excellence.</p>
+                </div>
+                <div>
+                    <img src="images/heroimage.jpg" class="hero-image" />
+                </div>
+            </div>
+        </section>
 
-            <h3>Starters</h3>
-            <table>
-                <thead>
-                    <th> </th>
-                    <th>Description</th>
-                    <th>Ingredients</th>
-                    <th>Price</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Crispy Garlic Bread </td>
-                        <td>Freshly baked bread topped with garlic butter and herbs, toasted until golden and crispy.</td>
-                        <td>Fresh baguette, garlic butter, parsley, oregano, parmesan cheese.</td>
-                        <td>$7.99</td>
-                    </tr>
-                    <tr>
-                        <td>Classic Caesar Salad</td>
-                        <td>Crisp romaine lettuce tossed with parmesan cheese, crunchy croutons, and creamy Caesar dressing.</td>
-                        <td>Romaine lettuce, parmesan cheese, garlic croutons, Caesar dressing, black pepper.</td>
-                        <td>$10.99</td>
-                    </tr>
-                    <tr>
-                        <td>Tomato Basil Soup</td>
-                        <td>Creamy tomato soup served with fresh basil and slices of toasted bread.</td>
-                        <td>Tomatoes, fresh basil, onions, garlic, cream, vegetable broth, toasted bread.</td>
-                        <td>$8.99</td>
-                    </tr>
-                </tbody>
-            </table>
+        <section id="about" class="box-about">
+            <div class="grid-container-2">
+                <div class="item1">
+                    <h2 class="title-styles">About Us</h2>
+                    <h3 class="title-styles">Our Story</h3>
+                    <p class="bodyfont-styles body-text">
+                        Founded with a passion for great food and genuine hospitality, The Restaurant is dedicated to creating memorable experiences for every guest. Our chefs carefully select fresh, high-quality ingredients and combine traditional techniques with modern creativity to deliver dishes that satisfy every palate.
+                        <br><br>We believe that dining is more than just a meal it’s an opportunity to connect, celebrate, and enjoy life’s special moments. From our welcoming atmosphere to our attentive service, every detail is designed to make you feel at home.
+                        <br><br>Our mission is simple: to serve delicious food, provide exceptional service, and create lasting memories for our guests.
+                    </p>
+                </div>
+                <div class="item2">
+                    <img src="images/chef.jpg" class="about-image" />
+                </div>
+            </div>
+        </section>
 
-            <h3>Main Courses</h3>
-            <table>
-                <thead>
-                    <th> </th>
-                    <th>Description</th>
-                    <th>Ingredients</th>
-                    <th>Price</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Grilled Ribeye Steak</td>
-                        <td>Juicy beef steak grilled to perfection and served with roasted vegetables.</td>
-                        <td>Premium ribeye beef, olive oil, rosemary, garlic, sea salt, black pepper, seasonal vegetables.</td>
-                        <td>$28.99</td>
-                    </tr>
-                     <tr>
-                        <td>Herb-Roasted Chicken</td>
-                        <td>Tender chicken seasoned with aromatic herbs and accompanied by creamy mashed potatoes.</td>
-                        <td>Chicken breast, thyme, rosemary, garlic, butter, potatoes, cream, parsley.</td>
-                        <td>$19.99</td>
-                    </tr>
-                     <tr>
-                        <td>Seafood Pasta</td>
-                        <td>Fresh seafood tossed with linguine in a rich garlic cream sauce.</td>
-                        <td>Linguine pasta, shrimp, mussels, garlic, heavy cream, parmesan cheese, parsley.</td>
-                        <td>$23.99</td>
-                    </tr>
-                     <tr>
-                        <td>Margherita Pizza</td>
-                        <td>Traditional Italian pizza with fresh ingredients and melted mozzarella.</td>
-                        <td>Pizza dough, tomato sauce, mozzarella cheese, fresh tomatoes, basil leaves, olive oil.</td>
-                        <td>$15.99</td>
-                    </tr>
-                </tbody>
-            </table>
+        <section id="menu" class="box">
+            <div class="grid-container-1">
+                <div>
+                    <h2 class="title-styles">Menu</h2>
+                </div>
 
-            <h3>Desserts</h3>
-            <table>
-                <thead>
-                    <th> </th>
-                    <th>Description</th>
-                    <th>Ingredients</th>
-                    <th>Price</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Chocolate Lava Cake</td>
-                        <td>Warm chocolate cake with a rich molten center, served with creamy vanilla ice cream.</td>
-                        <td>Dark chocolate, butter, flour, eggs, sugar, vanilla ice cream.</td>
-                        <td>$9.99</td>
-                    </tr>
-                    <tr>
-                        <td>New York Cheesecake</td>
-                        <td>Smooth and creamy cheesecake with a buttery crust and sweet berry topping.</td>
-                        <td>Cream cheese, eggs, sugar, vanilla extract, biscuit crust, mixed berry topping.</td>
-                        <td>$8.99</td>
-                    </tr>
-                    <tr>
-                        <td>Tiramisu</td>
-                        <td>Classic Italian dessert layered with coffee-soaked sponge and rich mascarpone cream.</td>
-                        <td>Ladyfingers, espresso coffee, mascarpone cheese, cocoa powder, whipped cream.</td>
-                        <td>$9.49</td>
-                    </tr>
-                </tbody>
-            </table>
+                <div>
+                    <h3 class="title-styles">Starters</h3>
+                </div>
+                <div>
+                    <table>
+                        <thead class="title-styles">
+                            <th>Dishes</th>
+                            <th>Description</th>
+                            <th>Ingredients</th>
+                            <th>Price</th>
+                        </thead>
+                        <tbody class="bodyfont-styles">
+                            <tr>
+                                <td>Crispy Garlic Bread </td>
+                                <td>Freshly baked bread topped with garlic butter and herbs, toasted until golden and crispy.</td>
+                                <td>Fresh baguette, garlic butter, parsley, oregano, parmesan cheese.</td>
+                                <td>$7.99</td>
+                            </tr>
+                            <tr>
+                                <td>Classic Caesar Salad</td>
+                                <td>Crisp romaine lettuce tossed with parmesan cheese, crunchy croutons, and creamy Caesar dressing.</td>
+                                <td>Romaine lettuce, parmesan cheese, garlic croutons, Caesar dressing, black pepper.</td>
+                                <td>$10.99</td>
+                            </tr>
+                            <tr>
+                                <td>Tomato Basil Soup</td>
+                                <td>Creamy tomato soup served with fresh basil and slices of toasted bread.</td>
+                                <td>Tomatoes, fresh basil, onions, garlic, cream, vegetable broth, toasted bread.</td>
+                                <td>$8.99</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-            <h3>Beverages</h3>
-            <table>
-                <thead>
-                    <th> </th>
-                    <th>Description</th>
-                    <th>Ingredients</th>
-                    <th>Price</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Fresh Lemonade</td>
-                        <td>Refreshing homemade lemonade infused with fresh mint.</td>
-                        <td>Fresh lemons, water, sugar, mint leaves, ice.</td>
-                        <td>$4.99</td>
-                    </tr>
-                    <tr>
-                        <td>Espresso Coffee</td>
-                        <td>Rich and aromatic freshly brewed coffee with a bold flavor.</td>
-                        <td>Premium espresso beans, filtered water.</td>
-                        <td>$3.99</td>
-                    </tr>
-                    <tr>
-                        <td>Tropical Fruit Smoothie</td>
-                        <td>A refreshing blend of seasonal fruits and creamy yogurt.</td>
-                        <td>Mango, pineapple, banana, yogurt, honey, ice.</td>
-                        <td>$6.99</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+                <div>
+                    <h3 class="title-styles">Main Courses</h3>
+                </div>
+                <div>
+                    <table>
+                        <thead class="title-styles">
+                            <th>Dishes</th>
+                            <th>Description</th>
+                            <th>Ingredients</th>
+                            <th>Price</th>
+                        </thead>
+                        <tbody class="bodyfont-styles">
+                            <tr>
+                                <td>Grilled Ribeye Steak</td>
+                                <td>Juicy beef steak grilled to perfection and served with roasted vegetables.</td>
+                                <td>Premium ribeye beef, olive oil, rosemary, garlic, sea salt, black pepper, seasonal vegetables.</td>
+                                <td>$28.99</td>
+                            </tr>
+                            <tr>
+                                <td>Herb-Roasted Chicken</td>
+                                <td>Tender chicken seasoned with aromatic herbs and accompanied by creamy mashed potatoes.</td>
+                                <td>Chicken breast, thyme, rosemary, garlic, butter, potatoes, cream, parsley.</td>
+                                <td>$19.99</td>
+                            </tr>
+                            <tr>
+                                <td>Seafood Pasta</td>
+                                <td>Fresh seafood tossed with linguine in a rich garlic cream sauce.</td>
+                                <td>Linguine pasta, shrimp, mussels, garlic, heavy cream, parmesan cheese, parsley.</td>
+                                <td>$23.99</td>
+                            </tr>
+                            <tr>
+                                <td>Margherita Pizza</td>
+                                <td>Traditional Italian pizza with fresh ingredients and melted mozzarella.</td>
+                                <td>Pizza dough, tomato sauce, mozzarella cheese, fresh tomatoes, basil leaves, olive oil.</td>
+                                <td>$15.99</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div>
+                    <h3 class="title-styles">Desserts</h3>
+                </div>
+                <div>
+                    <table>
+                        <thead class="title-styles">
+                            <th>Dishes</th>
+                            <th>Description</th>
+                            <th>Ingredients</th>
+                            <th>Price</th>
+                        </thead>
+                        <tbody class="bodyfont-styles">
+                            <tr>
+                                <td>Chocolate Lava Cake</td>
+                                <td>Warm chocolate cake with a rich molten center, served with creamy vanilla ice cream.</td>
+                                <td>Dark chocolate, butter, flour, eggs, sugar, vanilla ice cream.</td>
+                                <td>$9.99</td>
+                            </tr>
+                            <tr>
+                                <td>New York Cheesecake</td>
+                                <td>Smooth and creamy cheesecake with a buttery crust and sweet berry topping.</td>
+                                <td>Cream cheese, eggs, sugar, vanilla extract, biscuit crust, mixed berry topping.</td>
+                                <td>$8.99</td>
+                            </tr>
+                            <tr>
+                                <td>Tiramisu</td>
+                                <td>Classic Italian dessert layered with coffee-soaked sponge and rich mascarpone cream.</td>
+                                <td>Ladyfingers, espresso coffee, mascarpone cheese, cocoa powder, whipped cream.</td>
+                                <td>$9.49</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div>
+                    <h3 class="title-styles">Beverages</h3>
+                </div>
+                <div>
+                    <table>
+                        <thead class="title-styles">
+                            <th>Dishes</th>
+                            <th>Description</th>
+                            <th>Ingredients</th>
+                            <th>Price</th>
+                        </thead>
+                        <tbody class="bodyfont-styles">
+                            <tr>
+                                <td>Fresh Lemonade</td>
+                                <td>Refreshing homemade lemonade infused with fresh mint.</td>
+                                <td>Fresh lemons, water, sugar, mint leaves, ice.</td>
+                                <td>$4.99</td>
+                            </tr>
+                            <tr>
+                                <td>Espresso Coffee</td>
+                                <td>Rich and aromatic freshly brewed coffee with a bold flavor.</td>
+                                <td>Premium espresso beans, filtered water.</td>
+                                <td>$3.99</td>
+                            </tr>
+                            <tr>
+                                <td>Tropical Fruit Smoothie</td>
+                                <td>A refreshing blend of seasonal fruits and creamy yogurt.</td>
+                                <td>Mango, pineapple, banana, yogurt, honey, ice.</td>
+                                <td>$6.99</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </section>
     </body>
+
 </html>
